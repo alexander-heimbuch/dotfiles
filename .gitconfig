@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Alexander Heimbuch
+	email = github@heimbu.ch
+[commit]
+	gpgsign = false
+[push]
+	autoSetupRemote = true
+[core]
+    excludesfile = /Users/aheimbuch/.gitignore_global
+
+[diff]
+    tool = difftastic
+
+[difftool]
+    prompt = false
+
+[difftool "difftastic"]
+    cmd = difft "$LOCAL" "$REMOTE"
+
+[pager]
+    difftool = true
