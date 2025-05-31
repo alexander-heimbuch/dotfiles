@@ -2,7 +2,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "IBM Plex Mono",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -15,7 +15,6 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "workbench.statusBar.visible": true,
   "settingsSync.ignoredExtensions": [
-    "salesforce.salesforce-vscode-slds",
     "eamodio.gitlens",
     "danielsanmedium.dscodegpt"
   ],
@@ -84,10 +83,5 @@
   },
   "git.openRepositoryInParentFolders": "never",
   "workbench.colorTheme": "Night Owl",
-  "terminal.integrated.defaultProfile.osx": "fish",
-  "rift.codeEditModel": "gpt4all:rift-coder @ /Users/alexander-heimbuch/development/models/rift-coder-v0-7b-q4_0.gguf",
-  "rift.chatModel": "gpt4all:gpt4all-falcon-newbpe @ /Users/alexander-heimbuch/development/models/gpt4all-falcon-newbpe-q4_0.gguf",
-  "rift.riftServerPort": 7801,
-  "refactai.addressURL": "Refact",
-  "refactai.apiKey": "BMIxWFnjyKAT5aYX90YRsPy9"
+  "terminal.integrated.defaultProfile.osx": "fish"
 }

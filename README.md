@@ -1,10 +1,13 @@
 # Dotfiles
 
+- Nix: 
+  - https://nixos.org/download/
+  - https://github.com/nix-darwin/nix-darwin
+  - https://wickedchicken.github.io/post/macos-nix-setup/
+- Vim Setup: https://github.com/amix/vimrc
+- Font: https://github.com/IBM/plex
+
 ## Setup
 
 1. checkout: `git clone git@github.com:alexander-heimbuch/dotfiles.git`
-2. homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-3. devbox: `curl -fsSL https://get.jetify.com/devbox | bash`
-4. bundle: `brew bundle`
-5. copy dotfiles: `cp -r ./* ~/*`
-6. vscode: `ln -s ~/.vscode.json ~/Library/Application\ Support/Code/User/settings.json`
+2. symlink files
